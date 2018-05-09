@@ -6,7 +6,7 @@
 
     <groupId>com.shopping</groupId>
     <artifactId>online-shopping</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <properties>
@@ -18,7 +18,6 @@
     </properties>
 
     <dependencies>
-
         <!-- JUNIT -->
         <dependency>
             <groupId>junit</groupId>
@@ -34,6 +33,12 @@
             <version>${spring.version}</version>
         </dependency>
 
+        <!-- JSTL -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
     </dependencies>
 
     <build>
